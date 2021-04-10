@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="560.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mohnage7.Controller">
+
+    <Label layoutX="43.0" layoutY="61.0" text="Directory" />
+    <TextField fx:id="directoryTxtField" layoutX="105.0" layoutY="57.0" prefHeight="25.0" prefWidth="451.0" promptText="e.g C:\Users\Projects\MyProject" />
+    <Label layoutX="44.0" layoutY="106.0" text="Extension" />
+    <TextField fx:id="extensionTxtField" layoutX="106.0" layoutY="102.0" prefHeight="25.0" prefWidth="61.0" promptText="e.g .kt" />
+    <TextArea fx:id="fileNamesTxtArea" editable="false" layoutX="44.0" layoutY="155.0" prefHeight="156.0" prefWidth="513.0" promptText="File names results" wrapText="true" />
+    <TextArea fx:id="JQLQueryTxtArea" editable="false" layoutX="44.0" layoutY="317.0" prefHeight="156.0" prefWidth="513.0" promptText="JQL Query Result" wrapText="true" />
+    <Button layoutX="248.0" layoutY="506.0" mnemonicParsing="false" onAction="#showAllFileNames" text="Generate JQL Query" />
+</Pane>
