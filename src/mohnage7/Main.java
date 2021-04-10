@@ -11,7 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Pane root = FXMLLoader.load(getClass().getResource("name_fetcher_scene.fxml"));
-        primaryStage.setTitle("File Name Fetcher");
+        primaryStage.setTitle("JQL Helper");
         primaryStage.setScene(new Scene(root, 600, 560));
         primaryStage.setResizable(false);
         primaryStage.show();
